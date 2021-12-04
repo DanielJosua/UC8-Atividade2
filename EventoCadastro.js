@@ -17,8 +17,8 @@ if(idadeDaPessoa >= 18) {
 }
 
 //vagas 
-let númeroDeVagas = 80
-if(númeroDeVagas <= 99) {
+let listaDeCadastrados = ["Carlos", "Maria", "João", "Carla", "Jennifer", "Pedro", "Juan", "Marcela"]
+if(listaDeCadastrados.length <= 99) {
     console.log("É possível finalizar cadastro")
 } else {
     console.log("Não há vagas disponiveis")
