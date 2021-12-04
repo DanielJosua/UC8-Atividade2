@@ -1,11 +1,11 @@
 //data de cadastro
-let date1=new Date();
-let date2=new Date('2021-12-24');
+let inserirData = new Date();
+let date = new Date('2021-12-24');
 
-if(date1 > date2) {
-    console.log("Evento indisponivel")
-}else{
+if(inserirData < date) {
     console.log("Continuar cadastro")
+}else{
+    console.log("Evento indisponivel")
 }
 
 //idade da pessoa
